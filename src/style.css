@@ -8,8 +8,7 @@
   --color-primary-rgb: 255, 99, 71;
   --color-primary: tomato;
   --opacity: 0.33;
-  --bgblack: #000000;
-
+  --bgblack: #000;
 }
 
 * {
@@ -27,91 +26,90 @@ body {
   justify-content: center;
 }
 
-header h1{
-    margin-bottom: 20px;
+header h1 {
+  margin-bottom: 20px;
 }
 
-header h1 a{
-    color:var(--bgblack);
-    font-weight: bolder;
-    
+header h1 a {
+  color: var(--bgblack);
+  font-weight: bolder;
 }
 
 .container {
-    margin-top: 80px;
-    border:1px solid black;
-    /* width: fit-content; */
-    padding: 50px;
-    background-color: var(--bgwhite);
+  margin-top: 80px;
+  border: 1px solid black;
+
+  /* width: fit-content; */
+  padding: 50px;
+  background-color: var(--bgwhite);
 }
 
 .msection {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+}
+
+.mtitles div {
+  flex-grow: 2;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 
 .msection div:first-child {
-    width: 350px;
-    padding: 5px 0px 5px 0px;
-    border:2px solid black;
-    margin-right: 30px;
+  width: 350px;
+  padding: 5px 0 5px 0;
+  border: 2px solid black;
+  margin-right: 30px;
 }
 
 .msection div:last-child {
-    width: 250px;
-    padding:20px;
+  width: 250px;
+  padding: 20px;
 }
 
 .mform {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .mform input {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
+
 /* #books-table thead tr {
     background-color: aquamarine;
     text-align: left;
     font-weight: bold;
   } */
 
-  table{
-    width: 100%;
-  }
+table {
+  width: 100%;
+}
 
-  #leader-table tr {
-    border-bottom: rgb(184, 184, 184) solid 1px;
-  }
-  
-  #leader-table tr:nth-of-type(even) {
-    background-color: #E0E0E0;
-  }
-  
-  #leader-table tr:last-of-type {
-    border-bottom: aquamarine solid 2px;
-  }
-  
+#leader-table tr {
+  border-bottom: rgb(184, 184, 184) solid 1px;
+}
 
-  .mtitles {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-  }
+#leader-table tr:nth-of-type(even) {
+  background-color: #e0e0e0;
+}
 
-  .mtitles div { 
-    flex-grow: 2;
-    font-weight: bolder;
-    font-size: 20px;
-  }
+#leader-table tr:last-of-type {
+  border-bottom: aquamarine solid 2px;
+}
 
+.mtitles {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
 
-  .mtitles h3 { 
-    flex-grow: 1;
-    margin-left: 0px;
-  }
+.mtitles h3 {
+  flex-grow: 1;
+  margin-left: 0;
+}
 
-  .spacer {
-    padding-right: 100px;
-  }
+.spacer {
+  padding-right: 100px;
+}
