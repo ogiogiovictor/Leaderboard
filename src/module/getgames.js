@@ -3,9 +3,8 @@ import API from './api.js';
 class GetGames {
 
  static games = async () => {
-     
-    //https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/fxcnsYcJrkT4mY83CQhy/scores/
-    const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
+  
+    const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/B40y3Q2g4raVYYfX4Gif/scores/';
     const getData = await API.getdata(url);
       
     const { result } = getData;
@@ -13,11 +12,12 @@ class GetGames {
     const displayGames = document.querySelector('#leader-table');
     let gameDisplay = '';
 
+    console.log(result)
      if(result.length > 0 ){
-       const sortArray = result.sort((a, b) => b.user - a.user);
-      //const sortedArray = result.sort((a, b) => a.user.localeCompare(b.user));
-        
-       sortArray.map(el => {
+      //const sortedArray = result.sort((a, b) => b.user - a.user);
+      const sortedArray = result.sort((a, b) => a.user.localeCompare(b.user));
+       
+      sortedArray.map((el) => {
         if(typeof el.score !== 'object'){
             gameDisplay += `
             <tr>
@@ -32,7 +32,8 @@ class GetGames {
        displayGames.innerHTML = gameDisplay;
        document.querySelector('.loader').style.display='none';
      }else{
-        displayGames.textContent = 'No Scores';
+        displayGames.textContent = 'No Game Scores';
+        document.querySelector('.loader').style.display='none';
      }
    
     }

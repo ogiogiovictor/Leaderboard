@@ -112,6 +112,11 @@ table {
   margin-left: 0;
 }
 
+.message {
+  width: 210px;
+  margin-bottom: 20px;
+  color:green;
+}
 .spacer {
   padding-right: 100px;
 }

@@ -10,14 +10,14 @@ class createGame {
         const score = document.querySelector('#score');
         const message = document.querySelector('#message')
 
-        const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
+        const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/B40y3Q2g4raVYYfX4Gif/scores/';
 
-        if(!name){
+        if(!name.value){
             message.textContent = 'Please enter your name';
             return;
         }
 
-        if(!score){
+        if(!score.value){
             message.textContent = 'Please enter a score';
             return;
         }

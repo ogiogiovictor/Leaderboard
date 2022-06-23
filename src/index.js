@@ -7,7 +7,7 @@ const refresh = document.getElementById('refresh');
 
 const games = GetGames.games();
 
-refresh.addEventListener('click', games)
+refresh.addEventListener('click', () => GetGames.games())
 
 const createGameBtn = document.getElementById('postBtn');
 createGameBtn.addEventListener('click', (e) => createGame.postGame(e));
