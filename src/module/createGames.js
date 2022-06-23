@@ -3,8 +3,8 @@ import API from './api.js';
 class createGame {
 
     static postGame = async (e) => {
-        return e;
-       // e.preventDefault();
+       
+        e.preventDefault();
 
         const name = document.querySelector('#name');
         const score = document.querySelector('#socre');

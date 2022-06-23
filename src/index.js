@@ -10,7 +10,7 @@ const games = GetGames.games();
 refresh.addEventListener('click', games)
 
 const createGameBtn = document.getElementById('postBtn');
-createGameBtn.addEventListener('click', () => createGame.postGame());
+createGameBtn.addEventListener('click', (e) => createGame.postGame(e));
 
 
 document.addEventListener('DOMContentLoaded', games);
