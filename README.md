@@ -2,7 +2,7 @@
 
 # LeaderBoard Project
 
->This project is a LeaderBoard implementation with functionality to consume API using import and export and webpack configuration. Built with Javascript.
+>This project is a LeaderBoard implementation with functionality to consume API using import and export and webpack configuration. Built with modern ES6 Javascript.
 
 
 ## Built With
