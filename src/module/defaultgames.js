@@ -1,9 +1,9 @@
 const defaultGames = [
 
-    {
-        name: "No games loaded yet"
-    }
-  
-  ];
-  
-  export default defaultGames;
+  {
+    name: 'No games loaded yet',
+  },
+
+];
+
+export default defaultGames;
