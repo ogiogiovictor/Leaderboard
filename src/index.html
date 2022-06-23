@@ -17,7 +17,7 @@
         <section class="mtitles">
             <div>Recent Scores
                 <span class="spacer"></span> 
-                <button>Refresh</button>
+                <button id="refresh">Refresh</button>
             </div>
 
             <h3>Add your Score</h3>
@@ -35,9 +35,10 @@
 
             <div>
                 <form class="mform">
-                    <input type="text" placeholder="Your Name" required />
-                    <input type="text" placeholder="Your Score" required/>
-                    <button>Submit</button>
+                    <div id="message"></div>
+                    <input type="text" placeholder="Your Name"  id="name" />
+                    <input type="text" placeholder="Your Score" id="score" />
+                    <input type="button" id="postBtn" value="Submit" />
                 </form>
             </div>
         </section>
