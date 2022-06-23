@@ -17,7 +17,7 @@
         <section class="mtitles">
             <div>Recent Scores
                 <span class="spacer"></span> 
-                <button>Refresh</button>
+                <button id="refresh" type="button">Refresh</button>
             </div>
 
             <h3>Add your Score</h3>
@@ -26,23 +26,8 @@
         <section class="msection">
             <div>
                 <table id="leader-table">
-                   
-                <tr>
-                    <td>Name</td>
-                    <td>300</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>500</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>500</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>500</td>
-                </tr>
+                
+                    <center><span class="loader">Loading</span></center>
             
             </table>
                 
@@ -50,9 +35,10 @@
 
             <div>
                 <form class="mform">
-                    <input type="text" placeholder="Your Name" required />
-                    <input type="text" placeholder="Your Score" required/>
-                    <button>Submit</button>
+                    <span id="message" class="message"></span>
+                    <input type="text" placeholder="Your Name"  id="name" />
+                    <input type="text" placeholder="Your Score" id="score" />
+                    <input type="button" id="postBtn" value="Submit" />
                 </form>
             </div>
         </section>
