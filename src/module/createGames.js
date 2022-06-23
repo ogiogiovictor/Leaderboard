@@ -7,7 +7,7 @@ class createGame {
         e.preventDefault();
 
         const name = document.querySelector('#name');
-        const score = document.querySelector('#socre');
+        const score = document.querySelector('#score');
         const message = document.querySelector('#message')
 
         const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
