@@ -1,69 +1,68 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LeaderBoard Project
 
-> Description the project.
+>This project is a LeaderBoard implementation with functionality to consume API using import and export and webpack configuration.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS (Flexbox)
+- Linters: Webhint, Stylelint & ESLint
+- Webpack 
+- ES6 module (Import/Export)
+- API with Fetch using async and await
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ogiogiovictor.github.io/Leaderboard/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follw these simple example steps:
+
+```
+    - Clone the repo with git clone using the link below
+    - git clone https://github.com/ogiogiovictor/Leaderboard
+    - $ Once the report has been cloned change the project directory by cd into the directory
+    - $ cd into the todo list from your teminal.
+```
+Important: Once you have downloaded the code, run npm install, to install all dependencies of the project for it to work properly.
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+```
+    - Clone the repo with git clone using the link below
+    - git clone https://github.com/ogiogiovictor/Leaderboard
+    - $ Once the report has been cloned change the project directory by cd into the directory
+    - $ cd into the todo list from your teminal and run npm install
+```
+# Website URL - Github Pages
+The Webpage is now deployed using github pages. See url link below:
+[live demo]( https://ogiogiovictor.github.io/todo_list/dist/)
 
 
 ## Authors
+👤 **Ogiogio Victor**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [ogiogiovictor](https://github.com/ogiogiovictor) 
+- LinkedIn: [Ogiogio Victor](https://www.linkedin.com/in/ogiogio-victor-a096a0181/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ogiogiovictor/Leaderboard/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
@@ -71,3 +70,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
