@@ -14,7 +14,7 @@
 - ES6 module (Import/Export)
 - API with Fetch using async and await
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://ogiogiovictor.github.io/Leaderboard/)
 
