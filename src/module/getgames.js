@@ -11,7 +11,6 @@ class GetGames {
    let gameDisplay = '';
 
    if (result.length > 0) {
-     // const sortedArray = result.sort((a, b) => b.user - a.user);
      const sortedArray = result.sort((a, b) => a.user.localeCompare(b.user));
 
      sortedArray.map((el) => {
